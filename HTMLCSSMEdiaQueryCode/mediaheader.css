@@ -1,0 +1,17 @@
+
+@media(max-width:600px){
+    .menu-res{
+        width:100%;
+    }
+    .header .iconhide{
+        display: block;
+      }
+
+      .header .dispmenu{
+        display: none;
+      }
+      .iconhide:hover .dispmenu{
+        display: block;
+        /* position: absolute; */
+      }
+}
